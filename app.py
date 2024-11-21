@@ -4,7 +4,7 @@ import time
 app = Flask(__name__)
 
 # Set your Gemini API key (replace with your actual API key)
-GEMINI_API_KEY = "AIzaSyAdHKUV2avBTh061MVD3CS7vVIgnLG2yew"
+GEMINI_API_KEY = "your-api-key"
 
 # Function to call the Gemini API and get generated content
 def generate_text_with_gemini(prompt, retries=3, delay=2):
